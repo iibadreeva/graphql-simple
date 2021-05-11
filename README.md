@@ -10,13 +10,13 @@ query {
 }
 
 
-# mutation {
-#   deleteListing(id: "001") {
-#     id
-#     title
-#     price
-#     address
-#   }
-# }
+ mutation {
+   deleteListing(id: "001") {
+     id
+     title
+     price
+     address
+   }
+ }
 
 `
