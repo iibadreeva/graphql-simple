@@ -1,5 +1,6 @@
 ## Тест по адресу [demo api](http://localhost:9000/api)
-`
+
+```
 query {
   listings {
     id
@@ -9,14 +10,12 @@ query {
   }
 }
 
-
- mutation {
-   deleteListing(id: "001") {
-     id
-     title
-     price
-     address
-   }
- }
-
-`
+mutation {
+  deleteListing(id: "001") {
+    id
+    title
+    price
+    address
+  }
+}
+```
